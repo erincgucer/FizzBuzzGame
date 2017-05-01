@@ -1,3 +1,4 @@
 # FizzBuzzGame
 Simple Fizz Buzz Game implemented by using sprint boot and thymeleaf
-Works on localhost:8080 on your local machine
+Running version can be found in the following website
+https://serviceflow.herokuapp.com/

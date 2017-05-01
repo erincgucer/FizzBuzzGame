@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Fizz Buzz Game</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/thyme.css" th:href="@{/css/thyme.css}"/>
+</head>
+
+<body>
+
+<h2>Welcome to the Fizz Buzz Game</h2>
+
+<form action="#" th:action="@{/form}" th:object="${fizzBuzz}" method="post" >
+
+    <p>Number: <input type="number" th:field="*{fizzBuzzNumber}"/> </p>
+    <p><input type="submit" value="Submit" /></p>
+    <p>Result: <textarea rows="10" cols="40" readonly="readonly" type="text" th:field="*{result}"/> </p>
+
+</form>
+
+</body>
+
+</html>
